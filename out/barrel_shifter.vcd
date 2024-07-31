@@ -1,0 +1,229 @@
+$date
+	Wed Jul 31 20:58:54 2024
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module barrel_shifter_tb $end
+$var wire 1 ! zero_flag_tb $end
+$var wire 1 " overflow_flag_tb $end
+$var wire 8 # Y_tb [7:0] $end
+$var parameter 32 $ N $end
+$var reg 8 % A_tb [7:0] $end
+$var reg 3 & B_tb [2:0] $end
+$var reg 3 ' opcode_tb [2:0] $end
+$scope module barrel_shifter_I $end
+$var wire 8 ( A [7:0] $end
+$var wire 3 ) B [2:0] $end
+$var wire 8 * P_msk [7:0] $end
+$var wire 8 + Y [7:0] $end
+$var wire 3 , opcode [2:0] $end
+$var wire 1 " overflow_flag $end
+$var wire 1 - s $end
+$var wire 1 . sla $end
+$var wire 1 / sra $end
+$var wire 1 ! zero_flag $end
+$var wire 1 0 rotate $end
+$var wire 1 1 left $end
+$var wire 1 2 arithmetic $end
+$var wire 8 3 Z_msk [7:0] $end
+$var wire 8 4 Y_internal [7:0] $end
+$var wire 8 5 Y_hat [7:0] $end
+$var wire 8 6 T_msk [7:0] $end
+$var wire 8 7 F_msk [7:0] $end
+$var wire 8 8 A_hat [7:0] $end
+$var parameter 32 9 N $end
+$scope begin T_LOOP[1] $end
+$var parameter 2 : i $end
+$upscope $end
+$scope begin T_LOOP[2] $end
+$var parameter 3 ; i $end
+$upscope $end
+$scope begin T_LOOP[3] $end
+$var parameter 3 < i $end
+$upscope $end
+$scope begin T_LOOP[4] $end
+$var parameter 4 = i $end
+$upscope $end
+$scope begin T_LOOP[5] $end
+$var parameter 4 > i $end
+$upscope $end
+$scope begin T_LOOP[6] $end
+$var parameter 4 ? i $end
+$upscope $end
+$scope begin T_LOOP[7] $end
+$var parameter 4 @ i $end
+$upscope $end
+$scope begin Z_LOOP[1] $end
+$var parameter 2 A i $end
+$upscope $end
+$scope begin Z_LOOP[2] $end
+$var parameter 3 B i $end
+$upscope $end
+$scope begin Z_LOOP[3] $end
+$var parameter 3 C i $end
+$upscope $end
+$scope begin Z_LOOP[4] $end
+$var parameter 4 D i $end
+$upscope $end
+$scope begin Z_LOOP[5] $end
+$var parameter 4 E i $end
+$upscope $end
+$scope begin Z_LOOP[6] $end
+$var parameter 4 F i $end
+$upscope $end
+$scope begin Z_LOOP[7] $end
+$var parameter 4 G i $end
+$upscope $end
+$scope module data_rev_mux_I1 $end
+$var wire 8 H A [7:0] $end
+$var wire 1 1 left $end
+$var wire 8 I A_hat [7:0] $end
+$var parameter 32 J N $end
+$scope begin REV_LOOP[0] $end
+$var parameter 2 K i $end
+$upscope $end
+$scope begin REV_LOOP[1] $end
+$var parameter 2 L i $end
+$upscope $end
+$scope begin REV_LOOP[2] $end
+$var parameter 3 M i $end
+$upscope $end
+$scope begin REV_LOOP[3] $end
+$var parameter 3 N i $end
+$upscope $end
+$scope begin REV_LOOP[4] $end
+$var parameter 4 O i $end
+$upscope $end
+$scope begin REV_LOOP[5] $end
+$var parameter 4 P i $end
+$upscope $end
+$scope begin REV_LOOP[6] $end
+$var parameter 4 Q i $end
+$upscope $end
+$scope begin REV_LOOP[7] $end
+$var parameter 4 R i $end
+$upscope $end
+$upscope $end
+$scope module data_rev_mux_I2 $end
+$var wire 8 S A [7:0] $end
+$var wire 1 1 left $end
+$var wire 8 T A_hat [7:0] $end
+$var parameter 32 U N $end
+$scope begin REV_LOOP[0] $end
+$var parameter 2 V i $end
+$upscope $end
+$scope begin REV_LOOP[1] $end
+$var parameter 2 W i $end
+$upscope $end
+$scope begin REV_LOOP[2] $end
+$var parameter 3 X i $end
+$upscope $end
+$scope begin REV_LOOP[3] $end
+$var parameter 3 Y i $end
+$upscope $end
+$scope begin REV_LOOP[4] $end
+$var parameter 4 Z i $end
+$upscope $end
+$scope begin REV_LOOP[5] $end
+$var parameter 4 [ i $end
+$upscope $end
+$scope begin REV_LOOP[6] $end
+$var parameter 4 \ i $end
+$upscope $end
+$scope begin REV_LOOP[7] $end
+$var parameter 4 ] i $end
+$upscope $end
+$upscope $end
+$scope module fmsk_I $end
+$var wire 3 ^ B [2:0] $end
+$var wire 8 _ F [7:0] $end
+$var parameter 32 ` N $end
+$upscope $end
+$scope module right_rotator $end
+$var wire 8 a A [7:0] $end
+$var wire 3 b B [2:0] $end
+$var wire 8 c Y [7:0] $end
+$var parameter 32 d N $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+b1000 d
+b1000 `
+b111 ]
+b110 \
+b101 [
+b100 Z
+b11 Y
+b10 X
+b1 W
+b0 V
+b1000 U
+b111 R
+b110 Q
+b101 P
+b100 O
+b11 N
+b10 M
+b1 L
+b0 K
+b1000 J
+b111 G
+b110 F
+b101 E
+b100 D
+b11 C
+b10 B
+b1 A
+b111 @
+b110 ?
+b101 >
+b100 =
+b11 <
+b10 ;
+b1 :
+b1000 9
+b1000 $
+$end
+#0
+$dumpvars
+b1011 c
+b1 b
+b10110 a
+b1111111 _
+b1 ^
+b11010000 T
+b1011 S
+b10110 I
+b1101000 H
+b10110 8
+b1111111 7
+b1011 6
+b1011 5
+b11010000 4
+b11111110 3
+02
+11
+00
+0/
+0.
+0-
+b100 ,
+b11010000 +
+b1111111 *
+b1 )
+b1101000 (
+b100 '
+b1 &
+b1101000 %
+b11010000 #
+0"
+0!
+$end
+#20

@@ -1,0 +1,81 @@
+$date
+	Tue Jul 30 19:47:21 2024
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module data_rev_mux_tb $end
+$var wire 8 ! A_hat_tb [7:0] $end
+$var parameter 32 " N $end
+$var reg 8 # A_tb [7:0] $end
+$var reg 1 $ left_tb $end
+$scope module data_rev_mux_I $end
+$var wire 8 % A [7:0] $end
+$var wire 1 $ left $end
+$var wire 8 & A_hat [7:0] $end
+$var parameter 32 ' N $end
+$scope begin REV_LOOP[0] $end
+$var parameter 2 ( i $end
+$upscope $end
+$scope begin REV_LOOP[1] $end
+$var parameter 2 ) i $end
+$upscope $end
+$scope begin REV_LOOP[2] $end
+$var parameter 3 * i $end
+$upscope $end
+$scope begin REV_LOOP[3] $end
+$var parameter 3 + i $end
+$upscope $end
+$scope begin REV_LOOP[4] $end
+$var parameter 4 , i $end
+$upscope $end
+$scope begin REV_LOOP[5] $end
+$var parameter 4 - i $end
+$upscope $end
+$scope begin REV_LOOP[6] $end
+$var parameter 4 . i $end
+$upscope $end
+$scope begin REV_LOOP[7] $end
+$var parameter 4 / i $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+b111 /
+b110 .
+b101 -
+b100 ,
+b11 +
+b10 *
+b1 )
+b0 (
+b1000 '
+b1000 "
+$end
+#0
+$dumpvars
+b10110 &
+b1101000 %
+1$
+b1101000 #
+b10110 !
+$end
+#10
+b1101000 !
+b1101000 &
+0$
+#20
+b101101 !
+b101101 &
+b101101 #
+b101101 %
+#30
+b10110100 !
+b10110100 &
+1$
+#50
